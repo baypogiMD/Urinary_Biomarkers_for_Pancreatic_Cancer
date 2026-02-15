@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS urinary_biomarkers;
+
 CREATE TABLE urinary_biomarkers (
     patient_id INTEGER PRIMARY KEY,
     age INTEGER,
